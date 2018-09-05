@@ -6,9 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        body{
-            margin: 5px;
+       .container-szeroki{
+            display: flex;
+            align-items:center;
+            background: lightgray; 
+            height: 400px;
         }
+       .continer-dolny{
+            display: flex;
+            background: lightskyblue;
+            height: 400px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .szeroki{
+            margin: 30px;
+            background: green; 
+            height: 300px;
+            width: 500px;
+        }
+        .continer-dolny{
+            display: flex;
+            background: lightskyblue;
+            height: 400px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .lewy{
+            height: 250px;
+            width: 200px;
+            background: red;
+            margin-left: 10%;
+            
+
+        }
+        .prawy{
+            height: 250px;
+            width: 200px;
+            background: red;
+            margin-right: 10%;
+        }
+        .srodkowy{
+
+            height: 250px;
+            width: 200px;
+            background: lightgoldenrodyellow;
+            
+            
+        }
+
+      /* Responsive web design na duzy monitor. powyzej jest na mobile(maly) */
+    @media (min-width: 600px){
+
+
         .container-szeroki{
             display: flex;
             align-items: center;
@@ -51,6 +101,7 @@
             margin: 0 20px 0 20px;
             
         }
+    }
     </style>
 </head>
 <body>
