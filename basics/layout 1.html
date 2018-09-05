@@ -7,28 +7,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-      body {
-        display: block;
-        margin: 20px;
-        }
-        .container-waski{
-            display: flex;
-            justify-content: space-between;
-        }
+           
+        
         div .szeroki{
             background:#0000ff;
             height: 100px;
             width: 100%;
         }
         div .waski{
-            height: 300px;
-            width: 350px;
+            height: 200px;
+            width: auto;
             background: red;
             margin-top: 100px;
             padding-left: 50px;
             padding-right: 50px;
-        }
+            
+
+            
+        }              
+        @media (min-width: 600px){   
     
+            .container-waski{
+                display: flex;
+                justify-content: space-between;
+            }
+            div .szeroki{
+                background:#0000ff;
+                height: 100px;
+                width: 100%;
+            }
+            div .waski{
+                height: 200px;
+                width: 350px;
+                background: red;
+                margin-top: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        }
     </style>
 </head>
 
@@ -48,6 +64,6 @@
 
 
 
-///przewijanie na stronie navigacji
 
-<!-- <a href="#featues"></a -->
+
+<!-- <a href="#featues"></a    przewijanie na stronie navigacji -->
