@@ -1,109 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-       .container-szeroki{
+        .container-szeroki {
             display: flex;
-            align-items:center;
-            background: lightgray; 
+            align-items: center;
+            background: lightgray;
             height: 400px;
         }
-       .continer-dolny{
+
+        .continer-dolny {
             display: flex;
             background: lightskyblue;
             height: 400px;
             align-items: center;
             justify-content: space-between;
         }
-        .szeroki{
+
+        .szeroki {
             margin: 30px;
-            background: green; 
+            background: green;
             height: 300px;
             width: 500px;
         }
-        .continer-dolny{
+
+        .continer-dolny {
             display: flex;
             background: lightskyblue;
             height: 400px;
             align-items: center;
             justify-content: space-between;
         }
-        .lewy{
+
+        .lewy {
             height: 250px;
             width: 200px;
             background: red;
             margin-left: 10%;
-            
+
 
         }
-        .prawy{
+
+        .prawy {
             height: 250px;
             width: 200px;
             background: red;
             margin-right: 10%;
         }
-        .srodkowy{
+
+        .srodkowy {
 
             height: 250px;
             width: 200px;
             background: lightgoldenrodyellow;
-            
-            
-        }
-
-      /* Responsive web design na duzy monitor. powyzej jest na mobile(maly) */
-    @media (min-width: 600px){
 
 
-        .container-szeroki{
-            display: flex;
-            align-items: center;
-            background: lightgray; 
-            height: 400px;
         }
-        .szeroki{
-            margin: 30px;
-            background: green; 
-            height: 300px;
-            width: 500px;
-        }
-        .continer-dolny{
-            display: flex;
-            background: lightskyblue;
-            height: 400px;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .lewy{
-            height: 250px;
-            width: 200px;
-            background: red;
-            margin-left: 10%;
-            
 
-        }
-        .prawy{
-            height: 250px;
-            width: 200px;
-            background: red;
-            margin-right: 10%;
-        }
-        .srodkowy{
+        /* Responsive web design na duzy monitor. powyzej jest na mobile(maly) */
+        @media (min-width: 600px) {
 
-            height: 250px;
-            /* zachownie flex grow */
-            flex-grow:1;
-            background: lightgoldenrodyellow;
-            margin: 0 20px 0 20px;
-            
+
+            .container-szeroki {
+                display: flex;
+                align-items: center;
+                background: lightgray;
+                height: 400px;
+            }
+
+            .szeroki {
+                margin: 30px;
+                background: green;
+                height: 300px;
+                width: 500px;
+            }
+
+            .continer-dolny {
+                display: flex;
+                background: lightskyblue;
+                height: 400px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .lewy {
+                height: 250px;
+                width: 200px;
+                background: red;
+                margin-left: 10%;
+
+
+            }
+
+            .prawy {
+                height: 250px;
+                width: 200px;
+                background: red;
+                margin-right: 10%;
+            }
+
+            .srodkowy {
+
+                height: 250px;
+                /* zachownie flex grow */
+                flex-grow: 1;
+                background: lightgoldenrodyellow;
+                margin: 0 20px 0 20px;
+
+            }
         }
-    }
     </style>
 </head>
+
 <body>
     <div class="container-szeroki">
         <div class="szeroki"></div>
@@ -113,6 +126,7 @@
         <div class="srodkowy"></div>
         <div class="prawy"></div>
     </div>
-    
+
 </body>
+
 </html>
