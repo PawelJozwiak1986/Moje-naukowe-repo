@@ -1,0 +1,43 @@
+<style>
+    td {
+      border: 1px solid black;
+      width: 50px;
+      height: 50px;
+    }
+  
+    .darkCell {
+      background-color: black;
+    }
+</style>
+  
+<div id="app"></div>
+
+
+<script>
+
+    var app = document.querySelector('#app');
+    
+    // app.appendChild(makeGrid(10, 10, 'blue'));
+    // app.appendChild(makeGrid(5, 5, 'red'));
+    // app.appendChild(makeGrid(2, 2, 'yellow'));
+
+    // function makeGrid(width, height, color) {
+      var table = document.createElement('table');
+      var tbody = document.createElement('tbody');
+      var tr, td, i, j;
+   
+       for (i = 0; i < height; i += 1) {
+         tr = document.createElement('tr');
+         for (j = 0; j < width; j += 1) {
+          td = document.createElement('td');
+          td.style.background = color;
+          tr.appendChild(td);
+        }
+          tbody.appendChild(tr);
+       }
+   
+       table.appendChild(tbody);
+   
+       return table;
+     }
+</script>
