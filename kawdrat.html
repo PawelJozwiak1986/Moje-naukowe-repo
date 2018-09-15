@@ -3,21 +3,34 @@
   .app{
     height:100px;
     width: 100px;
-    background-color: red;
+    background-color: blue;
   }
 
 </style>
-
+  
 <script>
+
   var app = document.querySelector('.app');
     window.addEventListener('keydown', function (event) {
     if (event.code === 'Space') {
       var div = document.createElement('div');
       app.appendChild(div);
-      app.style.background = "blue";
+      app.style.background = "red";
       app.style.height = 100 + 'px';
       app.style.width = 100 + 'px';
       app.style.marginLeft = 20 + 'px';
+    } 
+
+  })
+  var app = document.querySelector('.app');
+    window.addEventListener('keyup', function (event) {
+    if (event.code === 'Space') {
+      var div = document.createElement('div'); 
+      app.appendChild(div);
+      app.style.background = "blue";
+      app.style.height = 100 + 'px';
+      app.style.width = 100 + 'px';
+      app.style.marginLeft = 1 + 'px';
     } 
 
   })
