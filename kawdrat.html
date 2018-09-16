@@ -5,10 +5,14 @@
     width: 100px;
     background-color: blue;
   }
+  .dis{
+    display: inline;
+  }
 
 </style>
   
 <script>
+  var display = document.querySelector('.dis');
 
   var app = document.querySelector('.app');
     window.addEventListener('keydown', function (event) {
@@ -19,6 +23,7 @@
       app.style.height = 100 + 'px';
       app.style.width = 100 + 'px';
       app.style.marginLeft = 20 + 'px';
+
     } 
 
   })

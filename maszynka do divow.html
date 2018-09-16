@@ -1,0 +1,30 @@
+<div class="app"></div>
+<style>
+  .app{
+    height:10px;
+    width: 10px;
+    background-color: red;
+  }
+
+</style>
+
+<script>
+  var app = document.querySelector('.app');
+
+
+
+  window.addEventListener('keydown', function (event) {
+    if (event.code === 'Space') {
+      var div = document.createElement('div');
+      app.appendChild(div);
+      div.style.background = "blue";
+      div.classList.add('kasza');
+      div.innerHTML ='lalala';
+
+    }
+
+  })
+
+
+
+</script>
