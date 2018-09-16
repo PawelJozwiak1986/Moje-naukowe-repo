@@ -7,6 +7,7 @@
   }
   .dis{
     display: inline;
+    color:aqua;
   }
 
 </style>
@@ -23,6 +24,8 @@
       app.style.height = 100 + 'px';
       app.style.width = 100 + 'px';
       app.style.marginLeft = 20 + 'px';
+      app.classList.add('.dis');
+     
 
     } 
 
@@ -36,6 +39,7 @@
       app.style.height = 100 + 'px';
       app.style.width = 100 + 'px';
       app.style.marginLeft = 1 + 'px';
+      app.classList.remove('.dis')
     } 
 
   })
