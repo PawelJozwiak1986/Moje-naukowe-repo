@@ -3,21 +3,25 @@ body {
   margin: 0;
   height: 1050px;
   background-repeat: no-repeat;
+  font-family: 'Ubuntu', sans-serif;
 }
 .profession{
   display: flex;
-  height: 150px;
+  height: 100px;
   justify-content: center;
   align-items: center;
 }
+.profession-text{
+  font-family: 'Ubuntu', italic;
+}
 .present {
-  background: #dfe1da;
+  background: #ced1c7;
   text-align: center;
   height: 136px;
 }
 
 .present-text {
-  padding: 10px 400px 0 400px;
+  padding: 16px 400px 0 400px;
   line-height: 1.8em;
 }
 
@@ -34,7 +38,7 @@ body {
 }
 
 .logo__img {
-  margin-top: 100px;
+  margin-top: 134px;
   border-radius: 50%;
   transition: 0.3s;
   height: 250px;
@@ -124,20 +128,79 @@ body {
   height: 426px;
   display: flex;
   justify-content: space-around;
-  align-items: center
+  align-items: top;
+     
+}
+.skills-item{
+  margin-top: 70px;
 }
 
 .footer-text {
-  margin-top: 30px;
+  margin-top: 81px;
+  margin-left: 30px;
   height: 76px;
-  opacity: 0.9;
-  line-height: 30px;
+  line-height: 85px;
+  font-size: 13px;
 }
 
 footer {
-  background: #6d7275;
+  background:#414244;
   display: flex;
   color: white;
   font-size: 18px;
   /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
+}
+.form {
+  height: 35%;
+  width: 40%;
+  background: #5e93d4;
+  align-items: center;
+  width: 100%
+}
+form {
+  border-radius: 15px;
+  text-align: center;
+}
+.form-input {
+  border-radius: 15px;
+  justify-content: center;
+}
+.form-text {
+  letter-spacing: 2px;
+  color: #122843;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  
+  
+}
+.form-text__input{
+  margin: auto;
+  margin-bottom: 25px;
+  
+}
+.form-text2 {
+  margin-bottom: 1rem;
+  color: #122843;
+}
+.form-btn {
+  border-radius: 15px;
+  margin: auto;
+}
+.form-btn button {
+  width: 205px;
+  border-radius: 5px;
+  border-color: #494d50;
+  background: #494d50;
+  color: #f1f4fc;
+}
+input {
+  height: 20px;
+  width: 205px;
+  background: #f1f4fc;
+  border-radius: 5px;
+}
+.form {
+  height: 60%;
+  background: #6d7275
 }
