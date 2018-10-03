@@ -1,6 +1,9 @@
 const  canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
+let snake =[{x: 100, y: 100}];
+let moveX = 20;
+let moveY = 0;
 
 function drawCanvas() {
   ctx.fillStyle = 'orange';
@@ -11,10 +14,28 @@ function drawCanvas() {
 function drawSnake(){
   ctx.fillStyle = 'green';
   ctx.strokeStyle = 'darkgreen';
-  ctx.fillRect (100, 100, 10, 10);
-  ctx.strokeRect (100, 100, 10, 10);
+  
+  snake.forEach(function(part){
+
+  ctx.fillRect (part.x,part.y, 10, 10);
+  ctx.strokeRect (part.x,part.y, 10, 10);
+
+  })
+
+}
+function moveSnake(){
+  const head ={x: snake[0].x + moveX, y: snake[0].y + moveY}
+  snake.unshift(head);
+  snake.pop();
 
 }
 
+
+
+
+function render(){
 drawCanvas();
+moveSnake();
 drawSnake();
+}
+render();
