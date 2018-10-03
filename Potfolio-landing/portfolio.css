@@ -1,58 +1,70 @@
-body{
+body {
   background-image: url("http://cobaltdesign.ie/wp-content/uploads/2018/08/Website-Design-Background.png");
   margin: 0;
-  
+  height: 1050px;
+  background-repeat: no-repeat;
 }
-.logo{
+.profession{
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.present {
+  background: #dfe1da;
   text-align: center;
- 
-  
+  height: 136px;
+}
 
+.present-text {
+  padding: 10px 400px 0 400px;
+  line-height: 1.8em;
 }
-h1{
-  font-size: Roboto,Arial,sans-serif;
-  font-size: 20px;
-}
-a{
 
+.contact-link {
+  height: 340px;
 }
-hr{
-  
-  background-color: black; height: 1px; border: 0;
-  margin-top: 80px;
+
+.contact-link-style {
+  margin-top: 50px
 }
-.logo__img{
-  margin-top:100px;
+
+.logo {
+  text-align: center;
+}
+
+.logo__img {
+  margin-top: 100px;
   border-radius: 50%;
   transition: 0.3s;
   height: 250px;
-  
 }
+
 .logo__img:hover {
   webkit-transition: border-radius 2s;
-  background:#000;
+  background: #000;
   border-radius: 40%;
 }
-.name{
-  height:350px;
-  display: flex;
-  justify-content: center;
-  
 
-}
-.link{
+.name {
+  height: 350px;
   display: flex;
   justify-content: center;
-  
 }
-.front{
+
+.link {
   display: flex;
-  height:350px ;
+  justify-content: center;
+}
+
+.front {
+  display: flex;
+  height: 350px;
   justify-content: center;
   margin-top: 30px;
   margin-bottom: -50px;
-
 }
+
 .nav {
   height: 76px;
   background: #414244;
@@ -66,12 +78,13 @@ hr{
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  
 }
+
 .nav-item {
   background: #6d7275;
   display: flex;
@@ -79,26 +92,43 @@ hr{
   align-self: center;
   justify-content: center;
   height: 52px;
-  margin: 5px;
+  margin: 10px;
   width: 130px;
   color: white;
   text-decoration: none;
   letter-spacing: 4px;
   cursor: pointer;
   border-radius: 5px;
-  box-shadow: 0 1px 1px rgba(102,119,136,.55);
+  box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
 }
-.footer-text{
+
+.contact {
+  height: 45px;
+  background: #6d7275
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.skills {
+  height: 426px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.footer-text {
   margin-top: 30px;
   height: 76px;
   opacity: 0.9;
   line-height: 30px;
 }
-footer{
+
+footer {
+  background: #6d7275;
   display: flex;
-  margin-top: 30px;
-  justify-content: center;
-  color: #e1e3de;
-  font-size: 20px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 18px;
+  /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
