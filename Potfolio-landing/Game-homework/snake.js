@@ -10,7 +10,11 @@ function drawCanvas() {
 }
 function drawSnake(){
   ctx.fillStyle = 'green';
-  ctx.strokeStyle = 'darkgreen'
-  ctx
+  ctx.strokeStyle = 'darkgreen';
+  ctx.fillRect (100, 100, 10, 10);
+  ctx.strokeRect (100, 100, 10, 10);
+
 }
+
 drawCanvas();
+drawSnake();
