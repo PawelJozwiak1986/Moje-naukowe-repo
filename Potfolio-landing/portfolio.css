@@ -65,6 +65,14 @@ body {
   margin-bottom: -50px;
 }
 
+.timer{
+  margin-top: 30px;
+  margin-left: 30px;
+  color:white;
+  font-size: 19px;
+  
+}
+
 .nav {
   height: 76px;
   background: #414244;
@@ -83,6 +91,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  padding-right: 220px;
 }
 
 .nav-item {
