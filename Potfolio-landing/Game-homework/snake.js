@@ -2,7 +2,7 @@ const  canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 let snake =[{x: 100, y: 100}];
-let moveX = 20;
+let moveX = 0;
 let moveY = 0;
 
 function drawCanvas() {
@@ -14,9 +14,7 @@ function drawCanvas() {
 function drawSnake(){
   ctx.fillStyle = 'green';
   ctx.strokeStyle = 'darkgreen';
-  
   snake.forEach(function(part){
-
   ctx.fillRect (part.x,part.y, 10, 10);
   ctx.strokeRect (part.x,part.y, 10, 10);
 
@@ -29,13 +27,45 @@ function moveSnake(){
   snake.pop();
 
 }
+function snakeSteer(event){
+  const key = event.keyCode;
+  if(key === 37 && moveX !== 10){
+    moveX = -10;
+    moveY = 0;
+  }
+  if(key === 39 && moveX !== -10){
+    moveX = 10;
+    moveY = 0;
+  }
+  if(key === 38&& moveY !== 10){
+    moveX = 0;
+    moveY = -10;
+  }
+  if(key === 40&& moveY !== -10){
+    moveX = 0;
+    moveY = 10;
+  }
+}
+function drawApple(){
+  ctx.fillStyle = 'red';
+  ctx.strokeStyle = 'darkred'
+  ctx.fillRect(50, 50, 10, 10)
+  ctx.strokeRect(50, 50, 10, 10)
 
+}
+
+window.addEventListener('keydown', snakeSteer);
 
 
 
 function render(){
-drawCanvas();
-moveSnake();
-drawSnake();
+setTimeout(function(){
+  drawCanvas();
+  drawApple();
+  moveSnake();
+  drawSnake();
+  render();
+},300)
+
 }
 render();
