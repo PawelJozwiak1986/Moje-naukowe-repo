@@ -4,6 +4,8 @@ const ctx = canvas.getContext('2d');
 let snake =[{x: 100, y: 100}];
 let moveX = 0;
 let moveY = 0;
+let appleX ;
+let appleY ; 
 
 function drawCanvas() {
   ctx.fillStyle = 'orange';
@@ -49,14 +51,22 @@ function snakeSteer(event){
 function drawApple(){
   ctx.fillStyle = 'red';
   ctx.strokeStyle = 'darkred'
-  ctx.fillRect(50, 50, 10, 10)
-  ctx.strokeRect(50, 50, 10, 10)
+  ctx.fillRect(appleX, appleY, 10, 10);
+  ctx.strokeRect(appleX, appleY, 10, 10);
+}
+function createApple(){
+  appleX = randomApple(0, canvas.width - 10);
+  appleY = randomApple(0, canvas.height - 10);
+
+}
+function randomApple(min, max){
+  return Math.round((Math.random() * (max - min) + min) / 10) * 10;
 
 }
 
 window.addEventListener('keydown', snakeSteer);
 
-
+createApple();
 
 function render(){
 setTimeout(function(){
