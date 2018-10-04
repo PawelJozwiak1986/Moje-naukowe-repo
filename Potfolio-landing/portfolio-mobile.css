@@ -1,0 +1,196 @@
+body {
+  background-image: url("http://cobaltdesign.ie/wp-content/uploads/2018/08/Website-Design-Background.png");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover; 
+  background-repeat: no-repeat;
+  font-family: 'Ubuntu', sans-serif;
+  width: auto;
+  margin: auto;
+}
+.profession{
+  text-align: center;
+  height: 100px;
+  
+}
+.profession-text{
+  font-family: 'Ubuntu', italic;
+}
+.present {
+  background: #ced1c7;
+  text-align: center;
+  height: 136px;
+}
+
+.present-text {
+  padding: 16px 400px 0 400px;
+  line-height: 1.8em;
+  display: inline;
+  text-align: justify;
+}
+
+.contact-link {
+  height: 340px;
+}
+
+.contact-link-style {
+  margin-top: 50px
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo__img {
+  margin-top: 134px;
+  border-radius: 50%;
+  transition: 0.3s;
+  height: 250px;
+}
+
+.logo__img:hover {
+  webkit-transition: border-radius 2s;
+  background: #000;
+  border-radius: 40%;
+}
+
+.name {
+  height: 350px;
+ 
+}
+
+
+.front {
+ 
+  height: 350px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: -50px;
+}
+
+.timer{
+  color:white;
+  font-size: 19px;
+  text-align: center;
+  
+}
+
+.nav {
+  height: 76px;
+  background: #414244;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.menu {
+  
+  width: auto; 
+  padding-top: 10px; 
+}
+
+.nav-item {
+  background: #6d7275;
+  height: 52px;
+  margin: 10px;
+  width: 130px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
+}
+
+.contact {
+  height: 180px;
+  width: auto;
+  background: #6d7275
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.skills {
+  height: 426px;
+  text-align: center;
+ 
+     
+}
+.skills-item{
+  margin-top: 70px;
+}
+
+.footer-text {
+  margin-top: 81px;
+  margin-left: 30px;
+  height: 76px;
+  line-height: 85px;
+  font-size: 13px;
+}
+
+footer {
+  background:#414244;
+  width: auto;
+  color: white;
+  font-size: 18px;
+  /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
+}
+.form {
+  height: 35%;
+  width: 40%;
+  background: #5e93d4;
+  align-items: center;
+  width: 100%
+}
+form {
+  border-radius: 15px;
+  text-align: center;
+}
+.form-input {
+  border-radius: 15px;
+  justify-content: center;
+}
+.form-text {
+  letter-spacing: 2px;
+  color: #122843;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  
+  
+}
+.form-text__input{
+  margin: auto;
+  margin-bottom: 25px;
+  
+}
+.form-text2 {
+  margin-bottom: 1rem;
+  color: #122843;
+}
+.form-btn {
+  border-radius: 15px;
+  margin: auto;
+}
+.form-btn button {
+  width: 205px;
+  border-radius: 5px;
+  border-color: #494d50;
+  background: #494d50;
+  color: #f1f4fc;
+}
+input {
+  height: 20px;
+  width: 205px;
+  background: #f1f4fc;
+  border-radius: 5px;
+}
+.form {
+  height: 60%;
+  background: #6d7275
+}
