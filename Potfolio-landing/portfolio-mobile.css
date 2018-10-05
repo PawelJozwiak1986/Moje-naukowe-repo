@@ -18,15 +18,17 @@ body {
 }
 .present {
   background: #ced1c7;
-  text-align: center;
+  display: flex;
+  justify-content: center
   height: 136px;
 }
 
 .present-text {
   padding: 16px 400px 0 400px;
   line-height: 1.8em;
-  display: inline;
-  text-align: justify;
+  text-align: center;
+  justify-content: flex-start;
+  
 }
 
 .contact-link {
