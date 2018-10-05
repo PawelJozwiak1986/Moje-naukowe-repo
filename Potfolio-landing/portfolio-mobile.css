@@ -1,8 +1,6 @@
 body {
   background-image: url("http://cobaltdesign.ie/wp-content/uploads/2018/08/Website-Design-Background.png");
   -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover; 
   background-repeat: no-repeat;
   font-family: 'Ubuntu', sans-serif;
   width: auto;
