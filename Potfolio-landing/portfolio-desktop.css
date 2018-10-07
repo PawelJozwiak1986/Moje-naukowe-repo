@@ -96,7 +96,7 @@ body {
 .menu {
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   padding-right: 220px;
 }
 
@@ -116,6 +116,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
 }
+
 
 .contact {
   height: 180px;
