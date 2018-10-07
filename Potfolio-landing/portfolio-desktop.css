@@ -17,12 +17,14 @@ body {
 .present {
   background: #ced1c7;
   text-align: center;
-  height: 136px;
+
 }
 
 .present-text {
-  padding: 16px 400px 0 400px;
+  padding: 16px 16px;
   line-height: 1.8em;
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 .contact-link {
