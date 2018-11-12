@@ -112,7 +112,7 @@ body {
   justify-content: center;
   height: 52px;
   margin: 10px;
-  width: 130px;
+  padding: 0px  10px;
   color: white;
   text-decoration: none;
   letter-spacing: 4px;
@@ -122,7 +122,7 @@ body {
   transition: background-color 0.7s ease;
 }
 
-.nav-item:hover {
+.nav__item:hover {
   background: #414244;
 }
 
@@ -186,7 +186,7 @@ form {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 25px;
-`}
+}
 
 .form__text--input {
   margin: auto;
