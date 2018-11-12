@@ -141,12 +141,13 @@ body {
 .skills {
   height: 426px;
   display: flex;
-  justify-content: space-around;
-  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
-
 .skills__item {
-  margin-top: 70px;
+  flex: 1 0 21%;
 }
 
 .footer__text {
