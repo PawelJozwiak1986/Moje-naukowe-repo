@@ -3,17 +3,19 @@ body {
   height: 1050px;
   font-family: 'Ubuntu', sans-serif;
 }
-.profession{
+
+.profession {
   display: flex;
   height: 100vh;
   flex-direction: row;
   background-image: url("img/header-background.jpg");
-  -webkit-background-size:cover;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
 }
-.profession__text{
+
+.profession__text {
   margin-bottom: 230px;
   font-family: 'Ubuntu', italic;
 }
@@ -21,7 +23,6 @@ body {
 .present {
   background: #ced1c7;
   text-align: center;
-
 }
 
 .present__text {
@@ -75,12 +76,11 @@ body {
   margin-bottom: -50px;
 }
 
-.timer{
+.timer {
   margin-top: 30px;
   margin-left: 30px;
-  color:white;
+  color: white;
   font-size: 19px;
-  
 }
 
 .nav {
@@ -101,7 +101,6 @@ body {
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
-
   padding-right: 220px;
 }
 
@@ -122,6 +121,7 @@ body {
   box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
   transition: background-color 0.7s ease;
 }
+
 .nav-item:hover {
   background: #414244;
 }
@@ -140,13 +140,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: top;
-     
 }
-.skills__item{
+
+.skills__item {
   margin-top: 70px;
 }
 
-.footer-text {
+.footer__text {
   margin-top: 81px;
   margin-left: 30px;
   height: 76px;
@@ -155,12 +155,13 @@ body {
 }
 
 footer {
-  background:#414244;
+  background: #414244;
   display: flex;
   color: white;
   font-size: 18px;
   /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
+
 .form {
   height: 35%;
   width: 40%;
@@ -168,36 +169,40 @@ footer {
   align-items: center;
   width: 100%
 }
+
 form {
   border-radius: 15px;
   text-align: center;
 }
+
 .form__input {
   border-radius: 15px;
   justify-content: center;
 }
+
 .form__text {
   letter-spacing: 2px;
   color: #122843;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 25px;
-  
-  
-}
-.form-text__input{
+`}
+
+.form__text--input {
   margin: auto;
   margin-bottom: 25px;
-  
 }
+
 .form-text2 {
   margin-bottom: 1rem;
   color: #122843;
 }
-.form-btn {
+
+.form__btn {
   border-radius: 15px;
   margin: auto;
 }
+
 .form-btn button {
   width: 205px;
   border-radius: 5px;
@@ -205,13 +210,10 @@ form {
   background: #494d50;
   color: #f1f4fc;
 }
+
 input {
   height: 20px;
   width: 205px;
   background: #f1f4fc;
   border-radius: 5px;
-}
-.form {
-  height: 60%;
-  background: #6d7275
 }
