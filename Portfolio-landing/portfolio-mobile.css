@@ -1,6 +1,4 @@
 body {
-  background-image: url("http://cobaltdesign.ie/wp-content/uploads/2018/08/Website-Design-Background.png");
-  -webkit-background-size:cover;
   background-repeat: no-repeat;
   font-family: 'Ubuntu', sans-serif;
   width: auto;
@@ -13,6 +11,7 @@ body {
 }
 .profession-text{
   font-family: 'Ubuntu', italic;
+  color: white
 }
 .present {
   background: #ced1c7;
@@ -95,7 +94,7 @@ body {
 .nav-item {
   background: #6d7275;
   height: 52px;
-  margin: 10px;
+  margin: 0 10px 19px ;
   width: 130px;
   color: white;
   text-decoration: none;
@@ -103,6 +102,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
+  
 }
 
 .contact {

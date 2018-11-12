@@ -1,0 +1,576 @@
+{
+  "username": "Paweł Jóźwiak",
+  "tasks": [
+    {
+      "id": 5,
+      "correct": [
+        2
+      ],
+      "instruction": "# Co oznacza, że protokół HTTP jest bezstanowy?",
+      "options": {
+        "1": "Nic nie jest wysyłane od klienta (np przeglądarki) do serwera",
+        "2": "Serwer nie wie, że dostaje żądania od tego samego klienta. I tak obsługuje je jakby był to nowy klient",
+        "3": "Nie są wysyłane obiekty JSON z polem “state”",
+        "4": "Nie da się określić stanu serwera - czy istnieje i odpowiada"
+      },
+      "selectedOptions": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "correct": [
+        7,
+        9
+      ],
+      "instruction": "# Jak można wprowadzić “stan” w komunikacji po HTTP? (wiele odpowiedzi)",
+      "options": {
+        "6": "Wykonując tylko żądania typu GET",
+        "7": "Za pomocą ciasteczek",
+        "8": "Wysyłać obiekt JSON z polem “state”",
+        "9": "Za pomocą sesji po stronie serwera (wysyłany jest identyfikator sesji, najczęściej w nagłówkach)"
+      },
+      "selectedOptions": [
+        6
+      ]
+    },
+    {
+      "id": 15,
+      "correct": [
+        11
+      ],
+      "instruction": "# Wysyłasz za pomocą formularza dane z rejestracji użytkownika w systemie. Imie, nazwisko, adres email, miasto. Jakiej metody HTTP (HTTP verb) użyjesz?:",
+      "options": {
+        "11": "POST",
+        "12": "PUT",
+        "13": "TRACE",
+        "14": "GET"
+      },
+      "selectedOptions": [
+        11
+      ]
+    },
+    {
+      "id": 20,
+      "correct": [
+        16,
+        17,
+        18
+      ],
+      "instruction": "# Jako klient (przeglądarka) wysyłasz żądanie do serwera. W odpowiedzi dostajesz … no właśnie, co możesz dostać? (wiele odpowiedzi)",
+      "options": {
+        "16": "ciało odpowiedzi (body) z danymi np w JSON albo z HTML-em",
+        "17": "status/kod odpowiedzi (200/400/401/500 itd)",
+        "18": "nagłówki",
+        "19": "torty (ang. birthday-cakes)"
+      },
+      "selectedOptions": [
+        16
+      ]
+    },
+    {
+      "id": 25,
+      "correct": [
+        22
+      ],
+      "instruction": "# Co daje wykorzystanie protokołu HTTPS (po SSL)?",
+      "options": {
+        "21": "zielona kłódka w przeglądarce chroni naszą stronę przed cyberterrorystami",
+        "22": "przesyłana treść jest szyfrowana natomiast przesyłanie po HTTP jest zawsze jawnym tekstem",
+        "23": "“robot” googla nie zbiera danych z naszej strony",
+        "24": "gwarancję, że programista wykonał wszystko zgodnie ze sztuką"
+      },
+      "selectedOptions": [
+        21
+      ]
+    },
+    {
+      "id": 30,
+      "correct": [
+        26
+      ],
+      "instruction": "# Co zwraca funkcja `fetch`?",
+      "options": {
+        "26": "obiekt Promise",
+        "27": "tekst odpowiedzi z serwera",
+        "28": "numer interwału",
+        "29": "nic nie zwraca"
+      },
+      "selectedOptions": [
+        26
+      ]
+    },
+    {
+      "id": 35,
+      "correct": [
+        31
+      ],
+      "instruction": "# W jakich stanach występują obiekty Promise?",
+      "options": {
+        "31": "pending, resolved, rejected",
+        "32": "incomplete, rejected",
+        "33": "then, catch",
+        "34": "nie da się tego określić"
+      },
+      "selectedOptions": [
+        31
+      ]
+    },
+    {
+      "id": 40,
+      "correct": [
+        36,
+        37
+      ],
+      "instruction": "# Obiekt Response posiada metody, które pozwalają:",
+      "options": {
+        "36": "wyciągnąć dane tekstowe z odpowiedzi z serwera",
+        "37": "odczytać kod HTTP odpowiedzi z serwera",
+        "38": "anulować żądanie",
+        "39": "zamknąć okno przeglądarki"
+      },
+      "selectedOptions": [
+        36
+      ]
+    },
+    {
+      "id": 45,
+      "correct": [
+        42
+      ],
+      "instruction": "# Co zwraca metoda `.then` obiektu Promise?",
+      "options": {
+        "41": "wartość, którą zwróci funkcja przekazana jako argument wywołania do metody `.then`",
+        "42": "nowy obiekt Promise",
+        "43": "tablicę znaków",
+        "44": "nic nie zwraca"
+      },
+      "selectedOptions": [
+        41
+      ]
+    },
+    {
+      "id": 50,
+      "correct": [
+        46
+      ],
+      "instruction": "# Do czego służy metoda `.catch` obiektu Promise?",
+      "options": {
+        "46": "do przechwycenia błędu, który wystąpi w trakcie działania tego obiektu",
+        "47": "do zatrzymania łańcucha obietnic",
+        "48": "do zatrzymania żądania HTTP",
+        "49": "bez niej nie zadziała metoda `.then`"
+      },
+      "selectedOptions": [
+        46
+      ]
+    },
+    {
+      "id": 55,
+      "correct": [
+        52
+      ],
+      "instruction": "# Jeżeli chciałbym, żeby mój fragment kodu uruchomił się po pomyślnym rozwiązaniu się 2 niezależnych obiektów Promise, to powinienem użyć:",
+      "options": {
+        "51": "`.then` na jednym z tych obiektów, a na drugim `.catch`",
+        "52": "`Promise.all`",
+        "53": "`Promise.every`",
+        "54": "`setTimeout` z długością interwału równą `0`"
+      },
+      "selectedOptions": [
+        51
+      ]
+    },
+    {
+      "id": 60,
+      "correct": [
+        56
+      ],
+      "instruction": "# Żeby z tablicy `[1, 2, 3]` otrzymać tablicę `[1, 3]` użyję:",
+      "options": {
+        "56": "filter",
+        "57": "map",
+        "58": "reduce",
+        "59": "some"
+      },
+      "selectedOptions": [
+        56
+      ]
+    },
+    {
+      "id": 65,
+      "correct": [
+        61
+      ],
+      "instruction": "# Żeby z tablicy `[1, 2, 3]` otrzymać tablicę `[2, 4, 6]` użyję:",
+      "options": {
+        "61": "map",
+        "62": "filter",
+        "63": "some",
+        "64": "every"
+      },
+      "selectedOptions": [
+        61
+      ]
+    },
+    {
+      "id": 70,
+      "correct": [
+        68,
+        69
+      ],
+      "instruction": "# Żeby z tablicy `[1, 2, 3]` otrzymać wartość `true` użyję:",
+      "options": {
+        "66": "filter",
+        "67": "map",
+        "68": "every",
+        "69": "some"
+      },
+      "selectedOptions": [
+        66
+      ]
+    },
+    {
+      "id": 75,
+      "correct": [
+        72
+      ],
+      "instruction": "# Metoda `Array.prototype.forEach` zwraca:",
+      "options": {
+        "71": "tablicę",
+        "72": "undefined",
+        "73": "liczbę",
+        "74": "null"
+      },
+      "selectedOptions": [
+        71
+      ]
+    },
+    {
+      "id": 80,
+      "correct": [
+        76
+      ],
+      "instruction": "# Żeby z obiektu `{ x: 10, y: 20 }` otrzymać tablicę `['x', 'y']` użyję:",
+      "options": {
+        "76": "Object.keys",
+        "77": "Object.values",
+        "78": "Object.entries",
+        "79": "Object.create"
+      },
+      "selectedOptions": [
+        76
+      ]
+    },
+    {
+      "id": 85,
+      "correct": [
+        81
+      ],
+      "instruction": "# Żeby z obiektu `{ x: 10, y: 20 }` otrzymać tablicę `[10, 20]` użyję:",
+      "options": {
+        "81": "Object.values",
+        "82": "Object.keys",
+        "83": "Object.entries",
+        "84": "Object.create"
+      },
+      "selectedOptions": [
+        81
+      ]
+    },
+    {
+      "id": 90,
+      "correct": [
+        86
+      ],
+      "instruction": "# Kolejność atrybutów w obiekcie jest:",
+      "options": {
+        "86": "niegwarantowana",
+        "87": "stała",
+        "88": "alfabetyczna",
+        "89": "numeryczna"
+      },
+      "selectedOptions": [
+        86
+      ]
+    },
+    {
+      "id": 95,
+      "correct": [
+        91
+      ],
+      "instruction": "# Metoda `push` z prototypu Array zwraca:",
+      "options": {
+        "91": "długość tablicy po wykonaniu `push`",
+        "92": "długość tablicy przed wywołaniem `push`",
+        "93": "nową tablicę",
+        "94": "obiekt"
+      },
+      "selectedOptions": [
+        91
+      ]
+    },
+    {
+      "id": 100,
+      "correct": [
+        96
+      ],
+      "instruction": "# Żeby zmodyfikować tablicę, na którą wskazuje referencja ze zmiennej `var x = [1, 2, 3]` w taki sposób, że nie będzie już posiadała elementu `2` i jej długość skróci się o 1 użyję:",
+      "options": {
+        "96": "splice",
+        "97": "slice",
+        "98": "filter",
+        "99": "some"
+      },
+      "selectedOptions": [
+        96
+      ]
+    },
+    {
+      "id": 105,
+      "correct": [
+        102,
+        103,
+        101
+      ],
+      "instruction": "# Funkcje czyste:",
+      "options": {
+        "101": "bazują swoje obliczenia na argumentach wywołania, a nie na zmiennych zdefiniowanych poza funkcją",
+        "102": "nie modyfikują zmiennych zdefiniowanych poza ich ciałem",
+        "103": "zwracają wartość",
+        "104": "nie zwracają wartości"
+      },
+      "selectedOptions": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "id": 110,
+      "correct": [
+        107,
+        106,
+        109
+      ],
+      "instruction": "# Funkcje wyższego rzędu (Higher Order Functions):",
+      "options": {
+        "106": "mogą zwracać funkcję jako wartość",
+        "107": "mogą przyjmować funkcję jako argument",
+        "108": "mają ponad 100 linii kodu",
+        "109": "to m.in. `map`, `filter` i `reduce`"
+      },
+      "selectedOptions": [
+        106
+      ]
+    },
+    {
+      "id": 115,
+      "correct": [
+        112,
+        111,
+        113
+      ],
+      "instruction": "# Prototyp:",
+      "options": {
+        "111": "to obiekt, do którego odwołuje się inny obiekt, jeżeli zapytamy go o wartość atrybutu, którego nie posiada",
+        "112": "to obiekt",
+        "113": "mechanizm pozwalający na ponowne użycie pewnych fragmentów kodu bez rezerwowania dodatkowych obszarów pamięci",
+        "114": "to to samo co kontekst wywołania"
+      },
+      "selectedOptions": [
+        111,
+        112
+      ]
+    },
+    {
+      "id": 120,
+      "correct": [
+        116,
+        117,
+        118
+      ],
+      "instruction": "# Wartość dostępna pod słowem kluczowym `this`:",
+      "options": {
+        "116": "wskazuje na tzw. kontekst wywołania funkcji",
+        "117": "zależy od sposobu wywołania funkcji",
+        "118": "zawsze wskazuje na obiekt",
+        "119": "może zostać ustawiona z użyciem funkcji `apply`, nawet jeżeli funkcja, na której wywołamy tę metodę jest zrobiona z użyciem metody `bind`"
+      },
+      "selectedOptions": [
+        116
+      ]
+    },
+    {
+      "id": 125,
+      "correct": [
+        122
+      ],
+      "instruction": "# NodeJS jest:",
+      "options": {
+        "121": "biblioteką JavaScript",
+        "122": "platformą, na której możemy uruchamiać skrypty w języku JavaScript",
+        "123": "funkcją",
+        "124": "niezbędny do uruchomienia aplikacji w Reakcie"
+      },
+      "selectedOptions": [
+        121
+      ]
+    },
+    {
+      "id": 130,
+      "correct": [
+        127,
+        128
+      ],
+      "instruction": "# Webpack:",
+      "options": {
+        "126": "jest jedynym narzędziem do automatyzacji zadań dostępnym w NodeJS",
+        "127": "pozwala połączyć wiele plików z kodem JavaScript w jeden",
+        "128": "pozwala zautomatyzować żmudne zadania front-endowe",
+        "129": "wymaga uprzedniego zainstalowania biblioteki `react` w systemie"
+      },
+      "selectedOptions": [
+        126
+      ]
+    },
+    {
+      "id": 135,
+      "correct": [
+        132
+      ],
+      "instruction": "# ESLint:",
+      "options": {
+        "131": "przetwarza pliki SCSS na CSS",
+        "132": "pozwala w automatyczny sposób wyeliminować niektóre złe praktyki w kodzie",
+        "133": "potrafi zbudować projekt, łącząc wiele plików w jeden",
+        "134": "jest niezbędny do działania narzędzia `Webpack`"
+      },
+      "selectedOptions": [
+        131,
+        132
+      ]
+    },
+    {
+      "id": 140,
+      "correct": [
+        137,
+        139
+      ],
+      "instruction": "# Zmienne utworzone za pomocą słowa kluczowego `let`:",
+      "options": {
+        "136": "posiadają scope leksykalny (funkcyjny)",
+        "137": "posiadają scope blokowy",
+        "138": "nie mogą zmieniać swojej wartości",
+        "139": "posiadają taki sam scope jak `const`"
+      },
+      "selectedOptions": [
+        136
+      ]
+    },
+    {
+      "id": 145,
+      "correct": [
+        142
+      ],
+      "instruction": "# Czy mogę zmienić wartość atrybutu obiektu zapisanego w stałej `const`?",
+      "options": {
+        "141": "nie",
+        "142": "tak",
+        "143": "tak, ale tylko jeżeli zastąpię cały obiekt",
+        "144": "tak, ale tylko jeżeli użyję metody Object.create"
+      },
+      "selectedOptions": [
+        141
+      ]
+    },
+    {
+      "id": 150,
+      "correct": [
+        148,
+        146
+      ],
+      "instruction": "# Metoda `Object.assign`:",
+      "options": {
+        "146": "przyjmuje tylko argumenty będące obiektami",
+        "147": "zwraca nowy obiekt",
+        "148": "przyjmuje dowolną liczbę argumentów",
+        "149": "przyjmuje argumenty dowolnego typu"
+      },
+      "selectedOptions": [
+        146
+      ]
+    },
+    {
+      "id": 155,
+      "correct": [
+        152,
+        151,
+        153,
+        154
+      ],
+      "instruction": "# Funkcje strzałkowe (arrow function):",
+      "options": {
+        "151": "nie mogą pełnić roli konstruktora",
+        "152": "są anonimowe",
+        "153": "nie posiadają własnego `this` - pożyczają go z miejsca, gdzie zostały zdefiniowane",
+        "154": "nie posiadają własnego `arguments`"
+      },
+      "selectedOptions": [
+        151
+      ]
+    },
+    {
+      "id": 160,
+      "correct": [
+        157,
+        158
+      ],
+      "instruction": "# Konstrukcja `let { a, b, c } = { a: 10, b: 20 }`:",
+      "options": {
+        "156": "jest niepoprawna",
+        "157": "utworzy 3 zmienne",
+        "158": "sprawi, że w scope pojawi się zmienna `c` o wartości `undefined`",
+        "159": "utworzy obiekt z atrybutami `a`, `b` oraz `c`"
+      },
+      "selectedOptions": [
+        156
+      ]
+    },
+    {
+      "id": 165,
+      "correct": [
+        161,
+        164
+      ],
+      "instruction": "# Jeżeli mam zmienne `let x = 10; let y = 20;` to zapis: `var foo = { x, y }`:",
+      "options": {
+        "161": "utworzy obiekt z atrybutami `x: 10` oraz `y: 20`",
+        "162": "wywoła błąd",
+        "163": "sprawi, że w zmiennej `foo` pojawi się wartość `undefined`",
+        "164": "nazywa się `shorthand object notation`"
+      },
+      "selectedOptions": [
+        161
+      ]
+    },
+    {
+      "id": 170,
+      "correct": [
+        167,
+        168,
+        169
+      ],
+      "instruction": "# Jeżeli mam zmienne `let x = 10; let y = 20;` to zapis: `[x, y] = [y, x]`:",
+      "options": {
+        "166": "jest niepoprawny składniowo",
+        "167": "zamieni wartości przechowywane w tych zmiennych",
+        "168": "sprawi, że zmienna `x` będzie posiadała wartość `20`",
+        "169": "utworzy nową tablicę"
+      },
+      "selectedOptions": [
+        166
+      ]
+    }
+  ]
+}

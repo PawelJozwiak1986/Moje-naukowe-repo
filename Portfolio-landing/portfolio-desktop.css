@@ -1,19 +1,23 @@
 body {
-  background-image: url("http://cobaltdesign.ie/wp-content/uploads/2018/08/Website-Design-Background.png");
   margin: 0;
   height: 1050px;
-  background-repeat: no-repeat;
   font-family: 'Ubuntu', sans-serif;
 }
 .profession{
   display: flex;
-  height: 100px;
+  height: 100vh;
+  flex-direction: row;
+  background-image: url("img/header-background.jpg");
+  -webkit-background-size:cover;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
 }
 .profession-text{
+  margin-bottom: 230px;
   font-family: 'Ubuntu', italic;
 }
+
 .present {
   background: #ced1c7;
   text-align: center;
@@ -81,7 +85,7 @@ body {
 
 .nav {
   height: 76px;
-  background: #414244;
+  background: transparent;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -95,13 +99,14 @@ body {
 
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 0 auto;
+
   padding-right: 220px;
 }
 
 .nav-item {
-  background: #6d7275;
+  background: transparent;
   display: flex;
   align-items: center;
   align-self: center;
@@ -115,8 +120,11 @@ body {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
+  transition: background-color 0.7s ease;
 }
-
+.nav-item:hover {
+  background: #414244;
+}
 
 .contact {
   height: 180px;
