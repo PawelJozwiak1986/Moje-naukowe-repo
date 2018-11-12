@@ -1,7 +1,7 @@
 Demo available at 
 
 
-https://paweljozwiak1986.github.io/
+https://paweljozwiak1986.github.io
 
 
 
