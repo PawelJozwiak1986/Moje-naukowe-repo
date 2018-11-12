@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 1050px;
+  height: 1250px;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
   display: flex;
   height: 100vh;
   flex-direction: row;
-  background-image: url("img/header-background.jpg");
+  background-image: url("img/Forest In Fog.jpg");
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -21,8 +21,10 @@ body {
 }
 
 .present {
+  height: 90vh;
   background: #ced1c7;
   text-align: center;
+  align-items: center;
 }
 
 .present__text {
@@ -137,24 +139,29 @@ body {
 .contact-link {
   text-decoration: none;
 }
-
+.skills__describe{
+  height: 40px;
+  background: #ced1c7;
+  text-align: center;
+  padding-bottom: 42px;
+  margin: auto;
+}
 .skills {
-  height: 426px;
+  height: 40vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  
+  background: #ced1c7;
+  padding: 0 163px 42px;
 }
 .skills__item {
-  flex: 1 0 21%;
+  flex:  18%;
 }
 
 .footer__text {
-  margin-top: 81px;
+  margin-top: 31px;
   margin-left: 30px;
-  height: 76px;
-  line-height: 85px;
   font-size: 13px;
 }
 
@@ -163,13 +170,14 @@ footer {
   display: flex;
   color: white;
   font-size: 18px;
+  height: 76px;
   /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .form {
   height: 35%;
   width: 40%;
-  background: #5e93d4;
+  background: #4c4f3f;
   align-items: center;
   width: 100%
 }
