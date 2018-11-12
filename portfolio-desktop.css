@@ -123,9 +123,12 @@ body {
 }
 
 .nav__item:hover {
-  background: #414244;
+  background: #3f2c2e;
 }
-
+.initials{
+  height:80px;
+  margin-right: 15px;
+}
 .contact {
   height: 180px;
   background: #6d7275
