@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.profession-text{
+.profession__text{
   margin-bottom: 230px;
   font-family: 'Ubuntu', italic;
 }
@@ -24,14 +24,14 @@ body {
 
 }
 
-.present-text {
+.present__text {
   padding: 16px 16px;
   line-height: 1.8em;
   margin: 0 auto;
   max-width: 640px;
 }
 
-.contact-link {
+.contact__link {
   height: 340px;
 }
 
@@ -105,7 +105,7 @@ body {
   padding-right: 220px;
 }
 
-.nav-item {
+.nav__item {
   background: transparent;
   display: flex;
   align-items: center;
@@ -142,7 +142,7 @@ body {
   align-items: top;
      
 }
-.skills-item{
+.skills__item{
   margin-top: 70px;
 }
 
@@ -172,11 +172,11 @@ form {
   border-radius: 15px;
   text-align: center;
 }
-.form-input {
+.form__input {
   border-radius: 15px;
   justify-content: center;
 }
-.form-text {
+.form__text {
   letter-spacing: 2px;
   color: #122843;
   text-align: center;
