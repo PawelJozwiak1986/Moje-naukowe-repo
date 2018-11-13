@@ -27,17 +27,18 @@
 
   <body>
     <div class="nav">
-      <div id="para1" class="timer"></div>
+        <img class="initials" src="img/pj.png">
       <div class="menu">
         <a href="#about" class="nav__item">O mnie</a>
         <a href="#skills" class="nav__item">Umiejetności</a>
         <a href="#contact" class="nav__item">Kontakt</a>
       </div>
-      <img class="initials" src="img/pj.png">
+      <div id="para1" class="timer"></div>
+      
     </div>
     <div class="profession">
-      <h1 class="profession__text">Paweł Jóźwiak<br /></h1>
-      <div class="profession__text"><br />dsfs</div>
+      <h1 class="profession__text--h1">Paweł Jóźwiak<br /></h1>
+      <div class="profession__text"><br />Web Developer <Datag></Datag></div>
     </div>
 
     <div id ="about" class="present">
@@ -48,68 +49,52 @@
         
       </div>
     </div>
-    <h3 class="skills__describe"id="skills">Narzędzia i języki z których Korzystam :</h3>
+    <div id="skills"></div>
+    <h3 class="skills__describe" id="skills" >Narzędzia i języki z których korzystam :</h3>
     <div  class="skills">
-      <div class="skills__item">
-        <img src="img/html-5.png" width="70" height="70" />
+      <div class="skills__item" >
+        <img src="img/html-5.png" width="70" height="70" title="HTML5" />
       </div>
       <div class="skills__item">
-        <img src="img/css.png" width="70" height="70" />
+        <img src="img/css.png" width="70" height="70" title="CSS3" />
       </div>
       <div class="skills__item">
-        <img src="img/javascript.svg" width="70" height="70" />
+        <img src="img/javascript.svg" width="70" height="70" title="JS">
       </div>
       <div class="skills__item">
-        <img src="img/git.svg" width="70" height="70" />
+        <img src="img/git.svg" width="70" height="70" title="GIT" />
       </div>
       <div class="skills__item">
-        <img src="img/nodejs.svg" width="70" height="70" />
+        <img src="img/nodejs.svg" width="70" height="70" title="Node js" />
       </div>
       <div class="skills__item">
-        <img src="img/VSC.png" width="70" height="70" />
+        <img src="img/VSC.png" width="70" height="70"title="VSCode" />
       </div>
       <div class="skills__item">
-        <img src="img/github.svg" width="70" height="70" />
+        <img src="img/github.svg" width="70" height="70" title="Github"/>
       </div>
       <div class="skills__item">
-        <img src="img/Bem.png" alt="rudy" width="100" height="70" />
+        <img src="img/Bem.png" alt="rudy" width="100" height="70" title="BEM"/>
       </div>
       <div class="skills__item">
-          <img src="img/npm.svg" width="70" height="70" />
+          <img src="img/npm.svg" width="70" height="70" title="NPM"/>
       </div>
       <div class="skills__item">
-          <img src="img/jira.png" width="70" height="70" />
-      </div>
-  
-    </div>
-    <div class="contact">
-      <div class="form-container">
-        <div class="form">
-          <form
-            action="https://formspree.io/paweljozwiak1986@gmail.com"
-            method="POST"
-          >
-            <div class="form__input">
-              <div class="form__text">Subscribe to newsletter</div>
-              <input
-                required
-                class="form__text--input"
-                type="email"
-                id="uname"
-                name="name"
-                placeholder="Your@email.com"
-                size="30"
-              />
-            </div>
-            <input type="hidden" name="_next" value="js/game.html" />
-            <div class="form__btn"><button type="submit">Sign up</button></div>
-          </form>
-        </div>
+          <img src="img/jira.png" width="70" height="70" title="Jira"/>
       </div>
     </div>
+    <div id="contact"></div>
+    
     <footer>
-      <div id="contact" class="footer__text">
+      <div class="footer__text">
         Copyright © 2018 Pawel Jozwiak
+      </div>
+      <div class="social__links">
+        <a href="mailto:paweljozwiak1986@gmail.com" class="social__links"><img src="img/Gmail.png" title="Gmail" style=" width: 40px"/></a>
+        <a href="https://www.linkedin.com/in/pawe%C5%82-j%C3%B3%C5%BAwiak/" class="social__links"><img src="img/linkedin.jpg" title="LnkedIn" style=" width: 40px"/></a>
+        <a href="https://www.facebook.com/profile.php?id=100001307092465"class="social__links"><img src="img/Facebook.png" title="LnkedIn" style=" width: 50px"/></a>
+        <a href="https://github.com/PawelJozwiak1986" class="social__links"><img src="img/Github.png" title="LnkedIn" style=" width: 40px"/></a>
+        
       </div>
     </footer>
 
