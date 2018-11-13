@@ -6,7 +6,7 @@ body {
 
 .profession {
   display: block;
-  
+  text-align: center;
   height: 100vh;
   background-image: url("img/Forest In Fog.jpg");
   -webkit-background-size: cover;
@@ -19,13 +19,13 @@ body {
   font-family: 'Ubuntu', italic;
 }
 .profession__text{
- 
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
 
 .present {
   height: 100vh;
+  display: flex;
   background: #ced1c7;
   text-align: center;
   align-items: center;
@@ -106,8 +106,7 @@ body {
 .menu {
   display: flex;
   justify-content: flex-end;
-  margin: 0 auto;
-  padding-left: 193px;
+  margin-left: 191px;
 }
 
 .nav__item {
@@ -154,13 +153,16 @@ body {
   height: 60vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 auto;
   align-items: center;
-  
   padding: 0 163px 130px;
+  margin-left: 114px;
+  padding-right: 0px;
+  margin-right: 136px
 }
 .skills__item {
-  flex:  18%;
+  flex: 1 0 18%;
+  justify-content: space-around;
 }
 footer {
   background: #414244;
