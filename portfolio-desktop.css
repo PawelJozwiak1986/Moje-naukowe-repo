@@ -2,6 +2,7 @@ body {
   margin: 0;
   height: 1250px;
   font-family: 'Ubuntu', sans-serif;
+  
 }
 
 .profession {
@@ -104,7 +105,7 @@ body {
 }
 
 .menu {
-  display: flex;
+  display: flex; 
   justify-content: flex-end;
   margin-left: 191px;
 }
@@ -150,7 +151,7 @@ body {
   margin-top: 80px;
 }
 .skills {
-  height: 60vh;
+  height: 40vh;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
