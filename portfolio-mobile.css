@@ -153,28 +153,25 @@ body {
   height:auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 60px;
-  padding: 10px;
+  margin: 40px;
+  /* padding: 10px; */
 }
 .skills__item {
   flex: 1 0 18%;
-  /* justify-content: space-around; */
 }
 footer {
   background: #414244;
-  /* display: flex; */
+  text-align: center;
   color: white;
   font-size: 18px;
   height: 90px;
-  /* justify-content: space-between; */
+  
 }
 .footer__text {
-  margin-top: 31px;
-  margin-left: 30px;
+  
   font-size: 16px; 
 }
 .social__links{
-  /* display: flex; */
-  /* align-items: center; */
-  margin: 15px;
+ 
+  margin: 10px;
 }
