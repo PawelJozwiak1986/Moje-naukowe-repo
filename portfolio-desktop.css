@@ -2,7 +2,6 @@ body {
   margin: 0;
   height: 1250px;
   font-family: 'Ubuntu', sans-serif;
-  
 }
 
 .profession {
@@ -19,23 +18,31 @@ body {
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
+
 .profession__text{
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
 
 .present {
-  height: 100vh;
+  height: 70vh;
   display: flex;
+  justify-content: center;
   background: #ced1c7;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
+}
+
+.present__img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .present__text {
   padding: 16px 16px;
   line-height: 1.8em;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 640px;
 }
 

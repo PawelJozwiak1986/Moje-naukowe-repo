@@ -25,7 +25,7 @@ body {
 
 .present {
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   background: #ced1c7;
   text-align: center;
   align-items: center;
@@ -65,17 +65,17 @@ body {
 
 .name {
   height: 350px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 
 .link {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 
 .front {
-  display: flex;
+  /* display: flex; */
   height: 350px;
   justify-content: center;
   margin-top: 30px;
@@ -87,12 +87,13 @@ body {
   margin-right: 30px;
   color: white;
   font-size: 19px;
+  display: none;
 }
 
 .nav {
   height: 76px;
   background: transparent;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -104,18 +105,15 @@ body {
 }
 
 .menu {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 191px;
+  display: block;
+  text-align: center;
+ 
 }
 
 .nav__item {
   background: transparent;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  height: 52px;
+  display: block;
+  height: 30px;
   margin: 10px;
   padding: 0px  10px;
   color: white;
@@ -144,7 +142,6 @@ body {
 }
 .skills__describe{
   height: 40px;
-  
   text-align: center;
   padding-bottom: 12px;
   margin-top: 80px;
@@ -153,24 +150,22 @@ body {
   height: 40vh;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  align-items: center;
-  padding: 0 163px 130px;
-  margin-left: 114px;
-  padding-right: 0px;
-  margin-right: 136px
+  margin: 30px;
+  /
+  padding: 10px;
+  
 }
 .skills__item {
   flex: 1 0 18%;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 footer {
   background: #414244;
-  display: flex;
+  /* display: flex; */
   color: white;
   font-size: 18px;
   height: 90px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .footer__text {
   margin-top: 31px;
@@ -178,7 +173,7 @@ footer {
   font-size: 16px; 
 }
 .social__links{
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   margin: 15px;
 }
