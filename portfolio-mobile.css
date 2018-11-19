@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 1250px;
+  height: auto;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -25,10 +25,8 @@ body {
 
 .present {
   height: 100vh;
-  /* display: flex; */
   background: #ced1c7;
   text-align: center;
-  align-items: center;
 }
 
 .present__text {
@@ -36,6 +34,11 @@ body {
   line-height: 1.8em;
   margin: 0 auto;
   max-width: 640px;
+}
+.present__img{
+  margin: 20px;
+  height: 140px;
+  border-radius: 50%;
 }
 
 .contact__link {
@@ -144,16 +147,14 @@ body {
   height: 40px;
   text-align: center;
   padding-bottom: 12px;
-  margin-top: 80px;
+  margin: 20px;
 }
 .skills {
-  height: 40vh;
+  height:auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 30px;
-  /
+  margin: 60px;
   padding: 10px;
-  
 }
 .skills__item {
   flex: 1 0 18%;
