@@ -7,12 +7,12 @@ body {
 .profession {
   display: block;
   text-align: center;
+  color: white;
   height: 100vh;
   background-image: url("img/Forest In Fog.jpg");
   -webkit-background-size: cover;
   background-repeat: no-repeat;
 }
-
 .profession__text--h1{
   padding-top: 300px;
   margin: 0 auto;
