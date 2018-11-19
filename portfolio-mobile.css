@@ -7,7 +7,6 @@ body {
 .profession {
   display: block;
   text-align: center;
-  /* color: white; */
   height: 100vh;
   background-image: url("img/Forest In Fog.jpg");
   -webkit-background-size: cover;
