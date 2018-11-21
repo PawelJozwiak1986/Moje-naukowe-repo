@@ -6,6 +6,7 @@ body {
 
 .profession {
   display: block;
+  color:white;
   text-align: center;
   height: 100vh;
   background-image: url("img/Forest In Fog.jpg");
@@ -33,6 +34,7 @@ body {
   line-height: 1.8em;
   margin: 0 auto;
   max-width: 640px;
+  
 }
 .present__img{
   margin: 20px;
@@ -167,10 +169,15 @@ footer {
   
 }
 .footer__text {
-  
+  margin-top: 31px;
   font-size: 16px; 
 }
 .social__links{
- 
   margin: 10px;
+}
+.projects__describe {
+margin: 20px;
+}
+.footer__text{
+  margin-top:0px;
 }
