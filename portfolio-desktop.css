@@ -192,6 +192,12 @@ body {
   align-items: center;
   background: #ced1c7;
 }
+.projects__container--item{
+  transition: all 1s ease;
+}
+.projects__container--item:hover{
+  filter: brightness(50%);
+}
 
 footer {
   background: #414244;
