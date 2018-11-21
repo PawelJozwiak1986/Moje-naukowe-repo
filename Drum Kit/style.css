@@ -35,12 +35,13 @@ body,html {
 }
 
 .key {
-  justify-content: space-between;
+  justify-content: center;
   width: 115px;
   height: 117px;
   background: url(szary.png);
   border-radius: 15%;
   margin-right:28px;
+  text-align: center;
 } 
 
 .playing {
@@ -56,7 +57,7 @@ kbd {
 
 .sound {
   font-size: 1.2rem;
-  text-transform: uppercase;
+  
   letter-spacing: .1rem;
-  color: #ffc600;
+
 }
