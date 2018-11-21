@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(Desk.jpg) bottom center;
+  background: url(img/Desk.jpg) bottom center;
   background-size: cover;
 }
 
@@ -11,10 +11,8 @@ body,html {
   
 }
 .samplerbody{
-  /* display: flex; */
   flex-direction: column;
-  /* justify-content: center; */
-  background: url(sampler.png);
+  background: url(img/sampler.png);
   height: 599px;
   width: 624px;
   margin: auto;
@@ -38,7 +36,7 @@ body,html {
   justify-content: center;
   width: 115px;
   height: 117px;
-  background: url(szary.png);
+  background: url(img/szary.png);
   border-radius: 15%;
   margin-right:28px;
   text-align: center;
@@ -47,7 +45,7 @@ body,html {
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
-  background: url(zielony.png)
+  background: url(img/zielony.png)
 }
 
 kbd {
@@ -57,7 +55,15 @@ kbd {
 
 .sound {
   font-size: 1.2rem;
-  
   letter-spacing: .1rem;
-
+}
+footer{
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+  background: transparent;
+  font-size: 18px;
+  height: 68px;
+  padding-left: 45px;
 }
