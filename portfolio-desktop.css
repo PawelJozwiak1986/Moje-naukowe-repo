@@ -13,27 +13,26 @@ body {
   background-repeat: no-repeat;
 }
 
-.profession__text--h1{
+.profession__text--h1 {
   padding-top: 300px;
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
 
-.profession__text{
+.profession__text {
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
 
 .present {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   background: #ced1c7;
-  /* text-align: center; */
   align-items: center;
 }
 
-.present__img{
+.present__img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -42,7 +41,6 @@ body {
 .present__text {
   padding: 16px 16px;
   line-height: 1.8em;
-  /* margin: 0 auto; */
   max-width: 640px;
 }
 
@@ -112,7 +110,7 @@ body {
 }
 
 .menu {
-  display: flex; 
+  display: flex;
   justify-content: flex-end;
   margin-left: 191px;
 }
@@ -125,7 +123,7 @@ body {
   justify-content: center;
   height: 52px;
   margin: 10px;
-  padding: 0px  10px;
+  padding: 0px 10px;
   color: white;
   text-decoration: none;
   letter-spacing: 4px;
@@ -138,10 +136,12 @@ body {
 .nav__item:hover {
   background: #3f2c2e;
 }
-.initials{
-  height:80px;
+
+.initials {
+  height: 80px;
   margin-right: 15px;
 }
+
 .contact {
   height: 180px;
   background: #6d7275
@@ -150,15 +150,16 @@ body {
 .contact-link {
   text-decoration: none;
 }
-.skills__describe{
+
+.skills__describe {
   height: 40px;
-  
   text-align: center;
   padding-bottom: 12px;
   margin-top: 80px;
 }
+
 .skills {
-  height: 80vh;
+  height: 65vh;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -168,10 +169,30 @@ body {
   padding-right: 0px;
   margin-right: 136px
 }
+
 .skills__item {
   flex: 1 2 25%;
   justify-content: space-around;
 }
+
+.projects__describe {
+  height: 10vh;
+  background: #ced1c7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.17em;
+  padding-top: 15px;
+}
+
+.projects__container {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ced1c7;
+}
+
 footer {
   background: #414244;
   display: flex;
@@ -180,12 +201,14 @@ footer {
   height: 90px;
   justify-content: space-between;
 }
+
 .footer__text {
   margin-top: 31px;
   margin-left: 30px;
-  font-size: 16px; 
+  font-size: 16px;
 }
-.social__links{
+
+.social__links {
   display: flex;
   align-items: center;
   margin: 15px;

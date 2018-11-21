@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="samplerbody">
+    <div class="samplerkeys">
+      <div data-key="81" class="key" img="guzik szary.png">
+        <kbd>Q</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="87" class="key" img="guzik szary.png">
+        <kbd>W</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="69" class="key" img="guzik szary.png">
+        <kbd>E</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="82" class="key" img="guzik szary.png">
+          <kbd>R</kbd>
+          <span class="sound">openhat</span>
+      </div>
+    </div>
+    <div class="samplerkeys">
+      <div data-key="84" class="key" img="guzik szary.png">
+          <kbd>T</kbd>
+          <span class="sound">boom</span>
+      </div>
+      <div data-key="89" class="key" img="guzik szary.png">
+          <kbd>Y</kbd>
+          <span class="sound">ride</span>
+      </div>
+      <div data-key="85" class="key" img="guzik szary.png">
+          <kbd>U</kbd>
+          <span class="sound">snare</span>
+      </div>
+      <div data-key="73" class="key" img="guzik szary.png">
+          <kbd>I</kbd>
+          <span class="sound">tom</span>
+      </div>
+    </div>
+    <div class="samplerkeys">
+        <div data-key="79" class="key" img="guzik szary.png">
+            <kbd>O</kbd>
+            <span class="sound">tink</span>
+        </div>
+        <div data-key="80" class="key" img="guzik szary.png">
+            <kbd>P</kbd>
+            <span class="sound">cowbell</span>
+        </div>
+        <div data-key="65" class="key" img="guzik szary.png">
+            <kbd>A</kbd>
+            <span class="sound">bigtom</span>
+        </div>
+        <div data-key="83" class="key" img="guzik szary.png">
+            <kbd>S</kbd>
+            <span class="sound">click</span>
+        </div>
+    </div>
+    <div class="samplerkeys">
+        <div data-key="68" class="key" img="guzik szary.png">
+            <kbd>D</kbd>
+            <span class="sound">bell808</span>
+        </div>
+        <div data-key="70" class="key" img="guzik szary.png">
+            <kbd>F</kbd>
+            <span class="sound">shaker</span>
+        </div>
+        <div data-key="71" class="key" img="guzik szary.png">
+            <kbd>G</kbd>
+            <span class="sound">chimes</span>
+        </div>
+        <div data-key="72" class="key" img="guzik szary.png">
+            <kbd>H</kbd>
+            <span class="sound">Cock</span>
+        </div>
+    </div>
+  </div>
+  
+  <audio data-key="81" src="sounds/clap.wav"></audio>
+  <audio data-key="87" src="sounds/hihat.wav"></audio>
+  <audio data-key="69" src="sounds/kick.wav"></audio>
+  <audio data-key="82" src="sounds/openhat.wav"></audio>
+  <audio data-key="84" src="sounds/boom.wav"></audio>
+  <audio data-key="89" src="sounds/ride.wav"></audio>
+  <audio data-key="85" src="sounds/snare.wav"></audio>
+  <audio data-key="73" src="sounds/tom.wav"></audio>
+  <audio data-key="79" src="sounds/tink.wav"></audio>
+  <audio data-key="80" src="sounds/cowbell.wav"></audio>
+  <audio data-key="65" src="sounds/bigtom.wav"></audio>
+  <audio data-key="83" src="sounds/click.wav"></audio>
+  <audio data-key="68" src="sounds/bell808.wav"></audio>
+  <audio data-key="70" src="sounds/shaker.wav"></audio>
+  <audio data-key="71" src="sounds/chimes.wav"></audio>
+  <audio data-key="72" src="sounds/cock.wav"></audio>
+
+<script>
+  window.addEventListener('keydown',function(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    key.classList.add("playing");
+    if (!audio) return;
+    audio.currentTime = 0;
+    audio.play()
+    console.log(key);
+
+});
+  window.addEventListener('keyup',function(e) {
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    key.classList.remove("playing");
+    console.log(key);
+});
+</script>
+
+
+</body>
+</html>

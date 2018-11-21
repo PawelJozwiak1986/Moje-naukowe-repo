@@ -1,0 +1,62 @@
+html {
+  font-size: 10px;
+  background: url(Desk.jpg) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.samplerbody{
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: center; */
+  background: url(sampler.png);
+  height: 599px;
+  width: 624px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 2%
+}
+.samplerkeys{
+  display: flex;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.key {
+  justify-content: space-between;
+  width: 115px;
+  height: 117px;
+  background: url(szary.png);
+  border-radius: 15%;
+  margin-right:28px;
+} 
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  background: url(zielony.png)
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
