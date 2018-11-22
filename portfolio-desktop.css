@@ -124,7 +124,7 @@ body {
   height: 52px;
   margin: 10px;
   padding: 0px 10px;
-  color: white;
+  color:#494d50;
   text-decoration: none;
   letter-spacing: 4px;
   cursor: pointer;
@@ -134,7 +134,7 @@ body {
 }
 
 .nav__item:hover {
-  background: #3f2c2e;
+  background:  #b69699;
 }
 
 .initials {
@@ -144,7 +144,7 @@ body {
 
 .contact {
   height: 180px;
-  background: #6d7275
+  background: #6d7275;
 }
 
 .contact-link {
@@ -186,10 +186,10 @@ body {
 }
 
 .projects__container {
-  height: 50vh;
+  height: 40vh;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  text-align: center;
   background: #ced1c7;
 }
 .projects__container--item{

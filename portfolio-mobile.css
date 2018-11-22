@@ -154,11 +154,14 @@ body {
   height:auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 40px;
+  margin-left: 71px;
+  margin-right: 40px;
   /* padding: 10px; */
+  justify-content: center;
 }
 .skills__item {
-  flex: 1 0 18%;
+  flex: 2 1 11%;
+  margin-top: 20px
 }
 footer {
   background: #414244;
