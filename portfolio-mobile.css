@@ -69,17 +69,14 @@ body {
 
 .name {
   height: 350px;
-  /* display: flex; */
   justify-content: center;
 }
 
 .link {
-  /* display: flex; */
   justify-content: center;
 }
 
 .front {
-  /* display: flex; */
   height: 350px;
   justify-content: center;
   margin-top: 30px;
@@ -97,7 +94,6 @@ body {
 .nav {
   height: 76px;
   background: transparent;
-  /* display: flex; */
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -113,7 +109,6 @@ body {
   text-align: center;
  
 }
-
 .nav__item {
   background: transparent;
   display: block;
