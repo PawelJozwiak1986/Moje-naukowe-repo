@@ -1,46 +1,48 @@
 body {
   margin: 0;
-  height: auto;
+  height: 1250px;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .profession {
   display: block;
-  color:white;
   text-align: center;
   height: 100vh;
   background-image: url("img/Forest In Fog.jpg");
   -webkit-background-size: cover;
   background-repeat: no-repeat;
+  
 }
-.profession__text--h1{
+
+.profession__text--h1 {
   padding-top: 300px;
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
-.profession__text{
+
+.profession__text {
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
 
 .present {
-  height: 100vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
   background: #ced1c7;
-  text-align: center;
+  align-items: center;
+}
+
+.present__img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
 }
 
 .present__text {
-  padding: 16px 16px;
+  padding: 16px 16px 16px 40px;
   line-height: 1.8em;
-  margin: 0 auto;
   max-width: 640px;
-  
-}
-.present__img{
-  margin: 20px;
-  height: 140px;
-  border-radius: 50%;
-  margin-top: 125px;
 }
 
 .contact__link {
@@ -70,14 +72,17 @@ body {
 
 .name {
   height: 350px;
+  display: flex;
   justify-content: center;
 }
 
 .link {
+  display: flex;
   justify-content: center;
 }
 
 .front {
+  display: flex;
   height: 350px;
   justify-content: center;
   margin-top: 30px;
@@ -89,12 +94,12 @@ body {
   margin-right: 30px;
   color: white;
   font-size: 19px;
-  display: none;
 }
 
 .nav {
   height: 76px;
   background: transparent;
+  display: flex;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -106,17 +111,21 @@ body {
 }
 
 .menu {
-  display: none;
-  text-align: center;
- 
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 191px;
 }
+
 .nav__item {
   background: transparent;
-  display: block;
-  height: 30px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 52px;
   margin: 10px;
-  padding: 0px  10px;
-  color: white;
+  padding: 0px 10px;
+  color:#494d50;
   text-decoration: none;
   letter-spacing: 4px;
   cursor: pointer;
@@ -126,68 +135,88 @@ body {
 }
 
 .nav__item:hover {
-  background: #3f2c2e;
+  background:  #b69699;
 }
-.initials{
-  height:80px;
+
+.initials {
+  height: 80px;
   margin-right: 15px;
 }
+
 .contact {
   height: 180px;
-  background: #6d7275
+  background: #6d7275;
 }
 
 .contact-link {
   text-decoration: none;
 }
-.skills__describe{
+
+.skills__describe {
   height: 40px;
   text-align: center;
   padding-bottom: 12px;
-  margin: 20px;
+  margin-top: 80px;
 }
+
 .skills {
-  height:auto;
+  height: 65vh;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 71px;
-  margin-right: 40px;
-  justify-content: center;
-}
-.skills__item {
-  flex: 2 1 34%;
-  margin-top: 20px
-}
-footer {
-  background: #414244;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  height: 90px;
-  
-}
-.footer__text {
-  margin-top: 31px;
-  font-size: 16px; 
-}
-.social__links{
-  margin: 10px;
-}
-.projects__container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  margin: 0 auto;
   align-items: center;
-  
+  padding: 0 163px 130px;
+  margin-left: 114px;
+  padding-right: 0px;
+  margin-right: 136px
 }
-.projects__container--item{
-  margin-bottom: 20px;
+
+.skills__item {
+  flex: 1 2 14%;
+  justify-content: space-around;
 }
 
 .projects__describe {
-margin: 20px;
-text-align: center;
+  height: 10vh;
+  background: #ced1c7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.17em;
+  padding-top: 15px;
 }
-.footer__text{
-  margin-top:0px;
+
+.projects__container {
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ced1c7;
+}
+.projects__container--item{
+  transition: all 1s ease;
+}
+.projects__container--item:hover{
+  filter: brightness(50%);
+}
+
+footer {
+  background: #414244;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.footer__text {
+  margin-top: 31px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.social__links {
+  display: flex;
+  align-items: center;
+  margin: 15px;
 }
