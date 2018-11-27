@@ -152,8 +152,7 @@ body {
   height:auto;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 71px;
-  margin-right: 40px;
+  text-align: center;
   justify-content: center;
 }
 .skills__item {
