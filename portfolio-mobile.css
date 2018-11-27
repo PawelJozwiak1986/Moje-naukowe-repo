@@ -22,7 +22,9 @@ body {
   margin: 0 auto;
   font-family: 'Ubuntu', italic;
 }
-
+.lang__links{
+  visibility: hidden;  
+}
 .present {
   height: 100vh;
   background: #ced1c7;
