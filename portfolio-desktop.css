@@ -25,7 +25,7 @@ body {
 }
 
 .present {
-  height: 80vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   background: #ced1c7;
@@ -33,13 +33,13 @@ body {
 }
 
 .present__img {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
 }
 
 .present__text {
-  padding: 16px 16px;
+  padding: 16px 16px 16px 40px;
   line-height: 1.8em;
   max-width: 640px;
 }
@@ -171,7 +171,7 @@ body {
 }
 
 .skills__item {
-  flex: 1 2 25%;
+  flex: 1 2 14%;
   justify-content: space-around;
 }
 
