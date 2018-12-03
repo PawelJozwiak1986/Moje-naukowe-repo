@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  height: auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.profession {
+  display: block;
+  color:white;
+  text-align: center;
+  height: 100vh;
+  background-image: url("../img/Forest In Fog.jpg");
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  &__text--h1{
+    padding-top: 300px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', italic;
+  }
+  &__text{
+    margin: 0 auto;
+    font-family: 'Ubuntu', italic;
+  }
+}
+
+.lang__links{
+  visibility: hidden;  
+}
+.present {
+  height: 100vh;
+  background: #ced1c7;
+  text-align: center;
+  &__text{
+    padding: 16px 16px;
+    line-height: 1.8em;
+    margin: 0 auto;
+    max-width: 640px;
+  }
+  &__img{
+    margin: 20px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 125px;
+  }
+}
+.logo {
+  text-align: center;
+  &__img{
+    margin-top: 134px;
+    border-radius: 50%;
+    transition: 0.3s;
+    height: 250px;
+  }
+  &:hover{
+    webkit-transition: border-radius 2s;
+    background: #000;
+    border-radius: 40%;
+  }
+}
+.name {
+  height: 350px;
+  justify-content: center;
+}
+
+.link {
+  justify-content: center;
+}
+
+.front {
+  height: 350px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: -50px;
+}
+
+.timer {
+  margin-top: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 19px;
+  display: none;
+}
+
+.nav {
+  height: 76px;
+  background: transparent;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  &__item{
+    background: transparent;
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 0px  10px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(102, 119, 136, .55);
+    transition: background-color 0.7s ease; 
+    &:hover{
+      background: #3f2c2e;
+    }
+  }
+
+}
+
+.menu {
+  display: none;
+  text-align: center;
+}
+
+.initials{
+  height:80px;
+  margin-right: 15px;
+}
+
+.skills {
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  &__describe{
+    height: 40px;
+    text-align: center;
+    padding-bottom: 12px;
+    margin: 20px;
+  }
+  &__item{
+    flex: 2 1 34%;
+    margin-top: 20px
+  }
+}
+
+footer {
+  background: #414244;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  height: 120px;
+  
+}
+.footer__text {
+  padding-top: 5px;
+  margin-top: 31px;
+  font-size: 16px; 
+}
+.footer__text{
+  margin-top:0px;
+}
+.social__links{
+  margin: 10px;
+}
+.projects__container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.projects__describe{
+  margin: 20px;
+  text-align: center;
+  &--item{
+  margin-bottom: 20px;}
+}
+
+
+
