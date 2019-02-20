@@ -107,8 +107,9 @@ body {
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(102, 119, 136, 0.55);
     transition: background-color 0.7s ease; }
-  .nav:hover {
-    background: #b69699; }
+
+.nav__item:hover {
+  background: #25221b; }
 
 .menu {
   display: flex;
