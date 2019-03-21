@@ -159,6 +159,11 @@ body {
     .projects__container--item hover {
       filter: brightness(50%); }
 
+.projects__container img {
+  width: 320px;
+  height: 180px;
+  border-radius: 5px; }
+
 footer {
   background: #414244;
   display: flex;
