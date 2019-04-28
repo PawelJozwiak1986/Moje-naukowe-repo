@@ -27,7 +27,7 @@ body {
   background: #ced1c7;
   text-align: center; }
   .present__text {
-    margin: 0 auto;
+    margin: 0 3vh;
     max-width: 640px; }
   .present__img {
     margin: 20px;
