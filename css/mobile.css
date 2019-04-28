@@ -23,7 +23,7 @@ body {
   visibility: hidden; }
 
 .present {
-  height: 100vh;
+  height: 76vh;
   background: #ced1c7;
   text-align: center; }
   .present__text {
@@ -139,11 +139,11 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  margin: 30%; }
+  align-items: center; }
 
 .projects__container img {
-  height: 40vh;
+  width: 57vh;
+  height: 35vh;
   border-radius: 5px; }
 
 .projects__describe {

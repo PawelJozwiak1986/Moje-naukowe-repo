@@ -27,8 +27,8 @@ body {
 .lang__links{
   visibility: hidden;  
 }
-.present {
-  height: 100vh;
+.present{
+  height: 76vh;
   background: #ced1c7;
   text-align: center;
   &__text{
@@ -163,11 +163,11 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 30%;
+  // margin: 30%;
 }
 .projects__container img{
-  // width: 90%;
-  height: 40vh;
+  width: 57vh;
+  height: 35vh;
   border-radius: 5px;
 }
 .projects__describe{
