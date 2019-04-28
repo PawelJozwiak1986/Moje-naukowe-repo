@@ -100,19 +100,24 @@
   <audio data-key="72" src="sounds/cock.wav"></audio>
 <footer>Copyright © 2018 Pawel Jozwiak</footer>
 <script>
-  window.addEventListener('keydown','touchstart',function(e) {
+  window.addEventListener('keydown' ,function(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
     key.classList.add("playing");
     if (!audio) return;
     audio.currentTime = 0;
     audio.play();
+    console.log(key)
 });
-  window.addEventListener('keyup','touchend',function(e) {
+  window.addEventListener('keyup',function(e) {
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
     key.classList.remove("playing");
     console.log(key);
 });
+  function tap(){
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    key.addEventListener('touchstart',touchhandler,false);
+  }
 </script>
 
 
