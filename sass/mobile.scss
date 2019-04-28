@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: auto;
+  width: auto;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -164,7 +165,12 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
+  margin: 30%;
+}
+.projects__container img{
+  // width: 90%;
+  height: 40vh;
+  border-radius: 5px;
 }
 .projects__describe{
   margin: 20px;

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: auto;
+  width: auto;
   font-family: 'Ubuntu', sans-serif; }
 
 .profession {
@@ -141,7 +142,12 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin: 30%; }
+
+.projects__container img {
+  height: 40vh;
+  border-radius: 5px; }
 
 .projects__describe {
   margin: 20px;
