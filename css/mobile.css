@@ -1,7 +1,6 @@
 body {
   margin: 0;
   height: auto;
-  width: auto;
   font-family: 'Ubuntu', sans-serif; }
 
 .profession {
@@ -28,8 +27,6 @@ body {
   background: #ced1c7;
   text-align: center; }
   .present__text {
-    padding: 16px 16px;
-    line-height: 1.8em;
     margin: 0 auto;
     max-width: 640px; }
   .present__img {
