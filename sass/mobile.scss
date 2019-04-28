@@ -28,18 +28,20 @@ body {
   visibility: hidden;  
 }
 .present{
-  height: 76vh;
+  height: auto;
   background: #ced1c7;
   text-align: center;
   &__text{
-    margin: 0 3vh;
+    margin: 3vh 3vh;
     max-width: 640px;
+    padding-bottom: 5vh;
   }
   &__img{
-    margin: 20px;
+    margin: 3vh;
     height: 140px;
     border-radius: 50%;
-    margin-top: 125px;
+    margin-top: 6vh;
+    // margin-top: 125px;
   }
 }
 .logo {
